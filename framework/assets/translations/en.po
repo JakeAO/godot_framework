@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GameStagePrototype 1.0\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "nav_profile"
+msgstr "Profile"
+
+msgid "nav_social"
+msgstr "Social"
+
+msgid "nav_home"
+msgstr "Home"
+
+msgid "nav_special"
+msgstr "Special"
+
+msgid "nav_settings"
+msgstr "Settings"
+
+msgid "header_coins"
+msgstr "Coins"
+
+msgid "header_gems"
+msgstr "Gems"
+
+msgid "home_title"
+msgstr "Adventure Ladder"
+
+msgid "home_stage"
+msgstr "Stage %d"
+
+msgid "home_locked"
+msgstr "Locked"
+
+msgid "home_play"
+msgstr "PLAY"
+
+msgid "home_next_challenge"
+msgstr "Next Challenge"
+
+msgid "event_tournament_title"
+msgstr "Spring Tournament"
+
+msgid "event_ends_in"
+msgstr "Ends in %d:%02d"
+
+msgid "offer_daily_gift_title"
+msgstr "Daily Gift"
+
+msgid "offer_claim"
+msgstr "Claim"
+
+msgid "offer_claimed"
+msgstr "Claimed!"
+
+msgid "offer_ready_in"
+msgstr "Ready in %d:%02d"
+
+msgid "offer_watch"
+msgstr "Watch"
+
+msgid "dlg_daily_gift_free"
+msgstr "Claim your free daily gift!"
+
+msgid "dlg_daily_gift_extras"
+msgstr "Watch a short video to claim your gift again (%d left today)."
+
+msgid "dlg_daily_gift_watch_btn"
+msgstr "Watch & claim"
+
+msgid "dlg_daily_gift_done"
+msgstr "You've claimed everything for today. Come back tomorrow!"
+
+msgid "dlg_daily_gift_next_in"
+msgstr "Next gift in %d:%02d"
+
+msgid "dlg_piggy_ready"
+msgstr "Your jar is ready to collect. Choose how you pay:"
+
+msgid "dlg_piggy_collect_rv"
+msgstr "Collect via video"
+
+msgid "dlg_piggy_collect_iap"
+msgstr "Collect (mock IAP)"
+
+msgid "dlg_piggy_filling"
+msgstr "Each stage cleared adds %d coins. %d more to unlock collecting."
+
+msgid "dlg_streak_current"
+msgstr "Streak: %d days"
+
+msgid "dlg_streak_ready"
+msgstr "Today's goal is met — claim your reward!"
+
+msgid "dlg_streak_broken"
+msgstr "Your streak broke. You can restore it once:"
+
+msgid "dlg_streak_recover_coins"
+msgstr "Restore with %d coins"
+
+msgid "dlg_streak_recover_rv"
+msgstr "Restore via video"
+
+msgid "dlg_streak_progress"
+msgstr "Rounds today: %d/%d"
+
+msgid "dlg_offer_body"
+msgstr "Claim your reward: %d %s."
+
+msgid "dlg_ad_failed"
+msgstr "The video failed to load — try again."
+
+msgid "tooltip_streak"
+msgstr "Play every day to keep your streak alive and grow the rewards."
+
+msgid "profile_title"
+msgstr "Player Profile"
+
+msgid "profile_level"
+msgstr "Level %d"
+
+msgid "profile_best_score"
+msgstr "Best Score"
+
+msgid "profile_total_games"
+msgstr "Games Played"
+
+msgid "profile_tab_portrait"
+msgstr "Portrait"
+
+msgid "profile_tab_flair"
+msgstr "Flair"
+
+msgid "profile_tab_crown"
+msgstr "Crown"
+
+msgid "profile_tab_stats"
+msgstr "Stats"
+
+msgid "portrait_classic"
+msgstr "Classic Portrait"
+
+msgid "portrait_gold"
+msgstr "Golden Portrait"
+
+msgid "portrait_silver"
+msgstr "Silver Portrait"
+
+msgid "portrait_diamond"
+msgstr "Diamond Portrait"
+
+msgid "portrait_ember"
+msgstr "Ember Portrait"
+
+msgid "portrait_forest"
+msgstr "Forest Portrait"
+
+msgid "flair_none"
+msgstr "None"
+
+msgid "flair_ring_gold"
+msgstr "Gold Ring"
+
+msgid "flair_ring_blue"
+msgstr "Blue Ring"
+
+msgid "flair_banner_gold"
+msgstr "Gold Banner"
+
+msgid "flair_banner_blue"
+msgstr "Blue Banner"
+
+msgid "flair_capsule_gold"
+msgstr "Gold Capsule"
+
+msgid "flair_capsule_blue"
+msgstr "Blue Capsule"
+
+msgid "crown_none"
+msgstr "None"
+
+msgid "crown_gold"
+msgstr "Champion Crown"
+
+msgid "crown_silver"
+msgstr "Silver Crown"
+
+msgid "crown_diamond"
+msgstr "Diamond Crown"
+
+msgid "social_tab_friends"
+msgstr "Friends"
+
+msgid "social_tab_team"
+msgstr "Team"
+
+msgid "social_tab_search"
+msgstr "Search"
+
+msgid "social_no_friends"
+msgstr "No friends yet. Share your score to invite!"
+
+msgid "social_no_team"
+msgstr "Join a team to gain bonuses and chat with your teammates."
+
+msgid "social_find_team"
+msgstr "Find a Team"
+
+msgid "social_subtab_chat"
+msgstr "Chat"
+
+msgid "social_subtab_members"
+msgstr "Members"
+
+msgid "social_chat_hint"
+msgstr "Message your team..."
+
+msgid "social_chat_send"
+msgstr "Send"
+
+msgid "social_presence_online"
+msgstr "online"
+
+msgid "social_seen_now"
+msgstr "just now"
+
+msgid "social_seen_minutes"
+msgstr "%dm ago"
+
+msgid "social_seen_hours"
+msgstr "%dh ago"
+
+msgid "social_seen_days"
+msgstr "%dd ago"
+
+msgid "social_seen_days_cap"
+msgstr "3d+"
+
+msgid "social_search_hint"
+msgstr "Search friends or teams..."
+
+msgid "social_no_results"
+msgstr "No results found."
+
+msgid "social_join"
+msgstr "Join"
+
+msgid "social_request"
+msgstr "Request"
+
+msgid "social_save"
+msgstr "Save"
+
+msgid "team_member_count"
+msgstr "%d Members"
+
+msgid "team_power"
+msgstr "Power %d"
+
+msgid "team_member"
+msgstr "Member"
+
+msgid "banner_base"
+msgstr "Base"
+
+msgid "banner_icon"
+msgstr "Icon"
+
+msgid "banner_base_lut"
+msgstr "Base palette"
+
+msgid "banner_icon_lut"
+msgstr "Icon palette"
+
+msgid "banner_icon_scale"
+msgstr "Icon size"
+
+msgid "social_invitations"
+msgstr "Invitations"
+
+msgid "social_accept"
+msgstr "Accept"
+
+msgid "social_reject"
+msgstr "Reject"
+
+msgid "social_cancel"
+msgstr "Cancel"
+
+msgid "social_blocked"
+msgstr "Blocked"
+
+msgid "social_block"
+msgstr "Block"
+
+msgid "social_unblock"
+msgstr "Unblock"
+
+msgid "team_create"
+msgstr "Create Team"
+
+msgid "team_name_label"
+msgstr "Team name"
+
+msgid "team_name_placeholder"
+msgstr "Enter team name"
+
+msgid "team_access"
+msgstr "Access"
+
+msgid "team_access_open"
+msgstr "Open"
+
+msgid "team_access_by_request"
+msgstr "By request"
+
+msgid "team_leader"
+msgstr "Leader"
+
+msgid "team_settings"
+msgstr "Settings"
+
+msgid "team_requests"
+msgstr "Join requests"
+
+msgid "team_approve"
+msgstr "Approve"
+
+msgid "team_deny"
+msgstr "Deny"
+
+msgid "team_request_sent"
+msgstr "Request sent"
+
+msgid "team_leave"
+msgstr "Leave team"
+
+msgid "social_error_pending_exists"
+msgstr "An invitation is already pending."
+
+msgid "social_error_blocked"
+msgstr "You can't add a blocked player."
+
+msgid "social_error_team_by_request"
+msgstr "This team requires a join request."
+
+msgid "social_error_team_open"
+msgstr "This team is open - just join it."
+
+msgid "social_error_request_pending"
+msgstr "Your join request is already pending."
+
+msgid "social_error_already_member"
+msgstr "You are already on this team."
+
+msgid "social_error_not_leader"
+msgstr "Only the team leader can do that."
+
+msgid "social_error_invalid_name"
+msgstr "Team names are 1-24 characters."
+
+msgid "social_error_already_on_team"
+msgstr "Leave your current team first."
+
+msgid "settings_title"
+msgstr "Settings"
+
+msgid "settings_language"
+msgstr "Language"
+
+msgid "settings_music"
+msgstr "Music"
+
+msgid "settings_sfx"
+msgstr "Sound Effects"
+
+msgid "settings_notifications"
+msgstr "Notifications"
+
+msgid "settings_reduced_vfx"
+msgstr "Reduced VFX"
+
+msgid "settings_haptics"
+msgstr "Haptic Feedback"
+
+msgid "settings_privacy"
+msgstr "Privacy & Data Policy"
+
+msgid "settings_support"
+msgstr "Support"
+
+msgid "settings_privacy_body"
+msgstr "Placeholder legal text for the prototype. The real privacy policy and data handling policy will live here, opened from Settings."
+
+msgid "settings_support_body"
+msgstr "Placeholder support text for the prototype. Contact options and the help center will live here."
+
+msgid "settings_reset_title"
+msgstr "Reset Save Data?"
+
+msgid "settings_reset_body"
+msgstr "This wipes your progress, coins and settings. This cannot be undone."
+
+msgid "settings_reset_confirm"
+msgstr "Reset"
+
+msgid "settings_reset_cancel"
+msgstr "Cancel"
+
+msgid "dialog_close"
+msgstr "Close"
+
+msgid "toast_reward"
+msgstr "+%d %s"
+
+msgid "special_title"
+msgstr "Special Screen"
+
+msgid "special_body"
+msgstr "Slot for seasonal / campaign content."
+
+msgid "game_pause"
+msgstr "Pause"
+
+msgid "game_resume"
+msgstr "Resume"
+
+msgid "game_quit"
+msgstr "Quit to Home"
+
+msgid "results_title"
+msgstr "Results"
+
+msgid "results_score"
+msgstr "Score"
+
+msgid "results_best"
+msgstr "Best"
+
+msgid "results_new_best"
+msgstr "NEW BEST!"
+
+msgid "results_coins_earned"
+msgstr "+%d coins"
+
+msgid "results_play_again"
+msgstr "Play Again"
+
+msgid "results_home"
+msgstr "Home"
+
+msgid "results_xp_earned"
+msgstr "+%d XP"
+
+msgid "results_modifier"
+msgstr "×%s %s"
+
+msgid "toast_level_up"
+msgstr "Level %d!"
+
+msgid "profile_xp"
+msgstr "XP %d / %d to next level"
+
+msgid "ftue_ladder"
+msgstr "Climb the Adventure Ladder: clear a stage to unlock the next."
+
+msgid "ftue_play"
+msgstr "Tap PLAY to start your first round!"
+
+msgid "tooltip_piggy_bank"
+msgstr "Round earnings fill this jar. Claim it to collect your saved coins."
+
+msgid "tooltip_daily_gift"
+msgstr "A free gift every day. Come back tomorrow for another one!"
+
+msgid "tooltip_notifications"
+msgstr "Push notification reminders for events and offers."
+
+msgid "tooltip_reduced_vfx"
+msgstr "Reduces particle effects for smoother performance on older devices."
+
+msgid "tooltip_team_join"
+msgstr "Find and join a team from the Search tab to unlock team chat."
+
+msgid "social_add_friend"
+msgstr "Add Friend"
+
+msgid "social_add_friend_hint"
+msgstr "Enter a player code"
+
+msgid "social_remove"
+msgstr "Remove"
+
+msgid "social_error_invalid_code"
+msgstr "That doesn't look like a player code."
+
+msgid "social_error_unknown_code"
+msgstr "No player found with that code."
+
+msgid "social_error_already_friend"
+msgstr "Already in your friends list."
+
+msgid "social_error_unavailable"
+msgstr "Social service unavailable. Try again later."
+
+msgid "social_error_generic"
+msgstr "Couldn't add that player."
+
+msgid "social_join_failed"
+msgstr "Couldn't join the team. Try again."
+
+msgid "profile_player_code"
+msgstr "Player Code"
+
+msgid "profile_code_hold_to_copy"
+msgstr "Hold to copy your player code"
+
+msgid "profile_code_copied"
+msgstr "Player code copied"
+
+msgid "profile_sync_idle"
+msgstr "Sync: waiting"
+
+msgid "profile_sync_ok"
+msgstr "Synced"
+
+msgid "profile_sync_failed"
+msgstr "Sync failed"
+
+msgid "profile_sync_offline"
+msgstr "Sync unavailable (offline)"
+
+msgid "common_offline"
+msgstr "Backend offline — actions unavailable"
+
+msgid "shop_title"
+msgstr "Shop"
+
+msgid "shop_empty"
+msgstr "Nothing for sale right now."
+
+msgid "shop_buy"
+msgstr "Buy"
+
+msgid "shop_owned"
+msgstr "Owned"
+
+msgid "shop_locked_level"
+msgstr "Lv %d"
+
+msgid "shop_contents_currency"
+msgstr "+%d %s"
+
+msgid "shop_toast_purchased"
+msgstr "Purchased!"
+
+msgid "shop_toast_insufficient"
+msgstr "Not enough %s"
+
+msgid "shop_toast_maxed"
+msgstr "Already purchased"
+
+msgid "shop_toast_locked"
+msgstr "Unlocks at level %d"
+
+msgid "profile_locked"
+msgstr "Locked"
+
+msgid "profile_shard_progress"
+msgstr "%d%%"
+
+msgid "gift_pile_exit"
+msgstr "Exit"
+
+msgid "gift_pile_cash_out"
+msgstr "Cash Out"
+
+msgid "gift_pile_no_run"
+msgstr "No Gift Pile run in progress."
+
+msgid "gift_pile_danger_title"
+msgstr "Danger!"
+
+msgid "gift_pile_danger_body"
+msgstr "A trap! Your bank is at risk — save it to keep playing or give up and lose it all."
+
+msgid "gift_pile_save_btn"
+msgstr "Save — %d coins"
+
+msgid "gift_pile_watch_rv"
+msgstr "Watch ad to save"
+
+msgid "gift_pile_give_up"
+msgstr "Give up (lose all)"
+
+msgid "gift_pile_jackpot"
+msgstr "JACKPOT!"
+
+msgid "gift_pile_cashout_result"
+msgstr "Cashed out! You earned %d coins and %d gems."
+
+msgid "gift_pile_cosmetics_gained"
+msgstr "+%d cosmetics unlocked"
+
+msgid "gift_pile_lost_result"
+msgstr "You gave up — the pile kept everything."
+
+msgid "gift_pile_slot_covered"
+msgstr "?"
+
+msgid "gift_pile_slot_fail"
+msgstr "TRAP!"
+
+msgid "gift_pile_box_closed"
+msgstr "?"
+
+msgid "gift_pile_fake_coin"
+msgstr "+5 Coins"
+
+msgid "gift_pile_fake_gem"
+msgstr "+2 Gems"
+
+msgid "gift_pile_fake_cosmetic"
+msgstr "* Flair"
+
+msgid "gift_pile_title"
+msgstr "Gift Pile"
+
+msgid "gift_pile_intro_rules"
+msgstr "Tap to reveal gifts from the bottom of the pile. Rewards are banked as you go — but a TRAP puts your whole bank at risk."
+
+msgid "gift_pile_top_prize"
+msgstr "Top prize: %s"
+
+msgid "gift_pile_save_cost"
+msgstr "Saving a trapped run costs %d coins (or watch an ad)."
+
+msgid "gift_pile_play"
+msgstr "Play"
+
+msgid "gift_pile_continue"
+msgstr "Continue"
+
+msgid "gift_pile_continue_hint"
+msgstr "You have a run in progress."
+
+msgid "gift_pile_no_runs_left"
+msgstr "No runs left today."
+
+msgid "gift_pile_extra_watch"
+msgstr "Watch ad — extra run"
+
+msgid "gift_pile_come_back"
+msgstr "Come back tomorrow for a fresh pile."
+
+msgid "gift_pile_tooltip"
+msgstr "Press your luck: reveal the pile, bank rewards, cash out before a trap!"
+
+msgid "dlg_tournament_offline"
+msgstr "Tournaments need an online connection."
+
+msgid "dlg_tournament_no_team"
+msgstr "Join a team to enter the team tournament."
+
+msgid "dlg_tournament_progress"
+msgstr "Your progress: %d pts"
+
+msgid "dlg_tournament_enter_hint"
+msgstr "Win a round to enter automatically."
+
+msgid "dlg_tournament_rank"
+msgstr "You're #%d — %d pts"
+
+msgid "dlg_tournament_claimed"
+msgstr "Reward claimed."
+
+msgid "dlg_tournament_missed"
+msgstr "This tournament has ended without an entry."
+
+msgid "dlg_tournament_loading"
+msgstr "Loading standings…"
+
+msgid "dlg_tournament_claim_failed"
+msgstr "Claim failed — try again later."
+
+msgid "dlg_leaderboards_offline"
+msgstr "Leaderboards need an online connection."
+
+msgid "dlg_leaderboards_scope_global"
+msgstr "Global"
+
+msgid "dlg_leaderboards_scope_friends"
+msgstr "Friends"
+
+msgid "dlg_leaderboards_loading"
+msgstr "Loading scores…"
+
+msgid "dlg_leaderboards_empty"
+msgstr "No scores yet."
+
+msgid "dlg_matchmaking_idle"
+msgstr "Find an opponent for a 1v1 match."
+
+msgid "dlg_matchmaking_queued"
+msgstr "Searching for an opponent…"
+
+msgid "dlg_matchmaking_matched"
+msgstr "Opponent found:"
+
+msgid "dlg_matchmaking_offline"
+msgstr "Matchmaking needs an online connection."
+
+msgid "dlg_matchmaking_failed"
+msgstr "Couldn't join the queue — try again."
+
+msgid "matchmaking_find"
+msgstr "Find match"
+
+msgid "matchmaking_cancel"
+msgstr "Cancel"
+
+msgid "matchmaking_leave"
+msgstr "Leave room"

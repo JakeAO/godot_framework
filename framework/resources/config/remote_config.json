@@ -1,0 +1,276 @@
+{
+  "flags": {
+   "banner_ads_enabled": true,
+   "admob_enabled": false,
+   "daily_gift_enabled": true,
+   "events_zone_enabled": true,
+   "offers_zone_enabled": true,
+   "social_feed_enabled": true
+  },
+ "values": {
+  "gameplay_scene": "",
+   "banner_refresh_sec": 30,
+   "admob_banner_unit_id": "",
+   "admob_rewarded_unit_id": "",
+  "target_lifetime_sec": 1.5,
+  "round_duration_sec": 30,
+  "win_score": 150,
+  "daily_gift_coins": 50,
+  "daily_gift_extra_watches": 2,
+  "piggy_bank_capacity": 200,
+  "piggy_deposit_per_stage": 10,
+  "piggy_redemption_threshold": 150,
+  "streak_min_rounds_per_day": 1,
+  "streak_rewards": [
+   50,
+   75,
+   100,
+   125,
+   150
+  ],
+  "streak_recovery_coins": 200,
+  "gift_pile_height": 10,
+  "gift_pile_boxes_per_level": 3,
+  "gift_pile_save_coins": 100,
+  "gift_pile_runs_per_day": 1,
+  "gift_pile_extra_watches": 1,
+  "gift_pile_slot_weights": {
+   "coins": 45,
+   "gems": 10,
+   "cosmetic": 5,
+   "fail": 40
+  },
+  "gift_pile_coin_reward": 25,
+  "gift_pile_gem_reward": 3,
+  "gift_pile_cosmetic": "portrait_icon:gold",
+   "gift_pile_jackpot": {
+    "kind": "gems",
+    "amount": 25
+   },
+   "shards_per_unlock": 20,
+   "gift_pile_shard_reward": 2,
+   "tournament_points_per_win": 10,
+  "tournament_score_divisor": 25
+},
+ "experiments": {
+  "target_spawn_rate": {
+   "variants": {
+    "control": {
+     "weight": 50,
+     "params": {
+      "spawn_interval_min": 1.2,
+      "spawn_interval_max": 1.6
+     }
+    },
+    "fast": {
+     "weight": 30,
+     "params": {
+      "spawn_interval_min": 0.8,
+      "spawn_interval_max": 1.2
+     }
+    },
+    "slow": {
+     "weight": 20,
+     "params": {
+      "spawn_interval_min": 1.6,
+      "spawn_interval_max": 2.0
+     }
+    }
+   }
+  },
+  "results_coin_multiplier": {
+   "variants": {
+    "x1": {
+     "weight": 50,
+     "params": {
+      "multiplier": 1
+     }
+    },
+    "x2": {
+     "weight": 50,
+     "params": {
+      "multiplier": 2
+     }
+    }
+   }
+  }
+ },
+ "events": [
+   {
+    "id": "tournament_weekend",
+    "title": "Weekend Tournament",
+    "subtitle": "Top 10 win gems",
+    "kind": "solo_tournament",
+    "ends_in_hours": 26,
+    "icon": "trophy",
+    "metadata": {
+     "tournament_id": "tournament_weekend_solo",
+     "dialog": {
+      "title": "Weekend Tournament",
+      "body": "Top 10 finishers win gems. Compete with your team all weekend!"
+     }
+    },
+     "rewards": [
+      {"min_rank": 1, "max_rank": 1, "currency": "gems", "amount": 25},
+      {"min_rank": 2, "max_rank": 3, "currency": "gems", "amount": 10},
+      {"min_rank": 4, "max_rank": 10, "currency": "gems", "amount": 5}
+     ]
+    },
+    {
+      "id": "leaderboards",
+      "title": "Leaderboards",
+      "subtitle": "Best scores — global & friends",
+      "kind": "leaderboards",
+      "icon": "crown"
+    },
+    {
+      "id": "matchmaking",
+      "title": "Matchmaking",
+      "subtitle": "Find an opponent",
+      "kind": "matchmaking",
+      "icon": "team"
+    }
+  ],
+ "campaigns": [
+  {
+   "id": "double_xp_fri",
+   "title": "Double XP Friday",
+   "subtitle": "Earn 2x XP all day",
+   "ends_in_hours": 9,
+   "icon": "xp",
+   "action": "modifier",
+   "modifies": "xp",
+   "multiplier": 2
+  },
+  {
+   "id": "practice_bonus",
+   "title": "Practice Bonus",
+   "subtitle": "Keep showing up",
+   "icon": "coin",
+   "action": "claim",
+   "reward_currency": "coins",
+   "reward_amount": 50
+  },
+  {
+   "id": "streak_bonus",
+   "title": "Streak Bonus",
+   "subtitle": "Play daily to grow it",
+   "icon": "crown",
+   "kind": "streak",
+   "metadata": {
+    "tooltip": "tooltip_streak"
+   }
+  }
+ ],
+ "offers": [
+  {
+   "id": "piggy_bank",
+   "kind": "piggy_bank",
+   "title": "Piggy Bank",
+   "icon": "bank",
+   "reward_currency": "coins",
+   "reward_amount": 0,
+   "cooldown_hours": 24,
+   "metadata": {
+    "tooltip": "tooltip_piggy_bank"
+   }
+  },
+  {
+   "id": "daily_gift",
+   "kind": "daily_gift",
+   "title": "Daily Gift",
+   "icon": "gift",
+   "reward_currency": "coins",
+   "reward_amount": 50,
+   "cooldown_hours": 24,
+   "metadata": {
+    "tooltip": "tooltip_daily_gift"
+   }
+  },
+  {
+   "id": "rv_booster",
+   "kind": "booster",
+   "title": "Booster Pack",
+   "icon": "booster",
+   "reward_currency": "gems",
+   "reward_amount": 5,
+   "cooldown_hours": 72
+  }
+ ],
+ "shop_items": [
+  {
+   "id": "gem_bundle",
+   "title": "Gem Bundle",
+   "icon": "gem",
+   "contents": {
+    "type": "currency",
+    "currency": "gems",
+    "amount": 5
+   },
+   "price": {
+    "currency": "coins",
+    "amount": 300
+   }
+  },
+  {
+   "id": "coin_bundle",
+   "title": "Coin Bundle",
+   "icon": "coin",
+   "contents": {
+    "type": "currency",
+    "currency": "coins",
+    "amount": 200
+   },
+   "price": {
+    "currency": "gems",
+    "amount": 1
+   }
+  },
+  {
+   "id": "portrait_icon_gold",
+   "title": "Golden Portrait",
+   "icon": "trophy",
+   "contents": {
+    "type": "cosmetic",
+    "slot": "portrait_icon",
+    "id": "gold"
+   },
+   "price": {
+    "currency": "coins",
+    "amount": 150
+   },
+   "max_purchases": 1
+  },
+  {
+   "id": "portrait_flair_ring_gold",
+   "title": "Gold Ring Flair",
+   "icon": "shield",
+   "contents": {
+    "type": "cosmetic",
+    "slot": "portrait_flair",
+    "id": "ring_gold"
+   },
+   "price": {
+    "currency": "coins",
+    "amount": 100
+   },
+   "max_purchases": 1
+  },
+  {
+   "id": "portrait_crown_diamond",
+   "title": "Diamond Crown",
+   "icon": "crown",
+   "contents": {
+    "type": "cosmetic",
+    "slot": "portrait_crown",
+    "id": "crown_diamond"
+   },
+   "price": {
+    "currency": "gems",
+    "amount": 3
+   },
+   "max_purchases": 1,
+   "unlock_level": 5
+  }
+ ]
+}

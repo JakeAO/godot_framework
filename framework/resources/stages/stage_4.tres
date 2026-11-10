@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="StageDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/stage_definition.gd" id="1_4ybxu"]
+
+[resource]
+script = ExtResource("1_4ybxu")
+id = 4

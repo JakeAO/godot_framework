@@ -1,11 +1,11 @@
-# Godot 4.2+ specific ignores
+# --- Godot 4.2+ specific ignores ---
 ~*.dll
 
-# Godot 4+ specific ignores
+# --- Godot 4+ specific ignores ---
 .godot/
 .nomedia
 
-# Godot-specific ignores
+# --- Godot-specific ignores ---
 .import/
 export.cfg
 export_credentials.cfg
@@ -21,5 +21,18 @@ mono_crash.*.json
 
 # Export outputs
 *.exe
-# Uncomment if your project does not version PCK files as runtime dependencies.
-# *.pck
+build/
+
+# --- Server (Nakama stack) ---
+# Secrets live only on the deploy box / VPS, never in git.
+.env
+# Compiled Go plugin artifacts (rebuild: server/plugins/analytics/build.sh)
+functions/analytics.so
+plugins/analytics/analytics.so
+
+# --- General ---
+*.log
+nohup.out
+*~
+.DS_Store
+Thumbs.db

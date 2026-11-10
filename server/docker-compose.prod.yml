@@ -1,0 +1,69 @@
+# PRODUCTION compose (VPS) — generated/used by deploy.sh. NOT for local dev
+# (local = docker-compose.yml). Differences: TLS ports on Caddy, NO default
+# fallbacks for secrets (a missing .env value fails fast instead of silently
+# shipping "defaultkey" to the public).
+
+services:
+  postgres:
+    image: postgres:16.8-alpine
+    environment:
+      POSTGRES_DB: nakama
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - nakama_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d nakama"]
+      interval: 1s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+  nakama:
+    image: registry.heroiclabs.com/heroiclabs/nakama:3.37.0
+    depends_on:
+      postgres:
+        condition: service_healthy
+    # List form (sh -ecx) — a folded scalar gets mangled by compose/YAML
+    # (deeper-indented lines keep their newlines, cutting off exec's flags).
+    # DSN = user postgres, password from .env (official image convention).
+    # Console (admin API, port 7351) credentials are set explicitly: the
+    # defaults (admin/admin) must never ship to a public VPS.
+    entrypoint:
+      - /bin/sh
+      - -ecx
+      - |-
+        /nakama/nakama migrate up --database.address postgres://postgres:${POSTGRES_PASSWORD}@postgres:5432/nakama && \
+        exec /nakama/nakama \
+          --name nakama1 \
+          --database.address postgres://postgres:${POSTGRES_PASSWORD}@postgres:5432/nakama \
+          --socket.server_key ${NAKAMA_SERVER_KEY} \
+          --session.encryption_key ${SESSION_ENCRYPTION_KEY} \
+          --session.refresh_encryption_key ${SESSION_REFRESH_ENCRYPTION_KEY} \
+          --console.username ${CONSOLE_USERNAME} \
+          --console.password ${CONSOLE_PASSWORD} \
+          --console.signing_key ${CONSOLE_SIGNING_KEY} \
+          --session.token_expiry_sec 7200 \
+          --runtime.path /nakama/functions \
+          --logger.level info
+    volumes:
+      - ./functions:/nakama/functions:ro
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2.10.0
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./config:/srv/config:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - nakama
+    restart: unless-stopped
+
+volumes:
+  nakama_postgres_data:
+  caddy_data:
+  caddy_config:

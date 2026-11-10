@@ -1,0 +1,110 @@
+{
+	"flags": {
+		"banner_ads_enabled": true,
+		"daily_gift_enabled": true,
+		"events_zone_enabled": true,
+		"offers_zone_enabled": true,
+		"social_feed_enabled": true
+	},
+	"values": {
+		"gameplay_scene": "",
+		"banner_refresh_sec": 30,
+		"target_lifetime_sec": 1.5,
+		"round_duration_sec": 30,
+		"win_score": 150,
+		"daily_gift_coins": 50,
+		"piggy_bank_capacity": 200,
+		"chat_poll_sec": 10
+	},
+	"experiments": {
+		"target_spawn_rate": {
+			"variants": {
+				"control": { "weight": 50, "params": { "spawn_interval_min": 1.2, "spawn_interval_max": 1.6 } },
+				"fast": { "weight": 30, "params": { "spawn_interval_min": 0.8, "spawn_interval_max": 1.2 } },
+				"slow": { "weight": 20, "params": { "spawn_interval_min": 1.6, "spawn_interval_max": 2.0 } }
+			}
+		},
+		"results_coin_multiplier": {
+			"variants": {
+				"x1": { "weight": 50, "params": { "multiplier": 1 } },
+				"x2": { "weight": 50, "params": { "multiplier": 2 } }
+			}
+		}
+	},
+	"events": [
+		{
+			"id": "tournament_weekend",
+			"title": "Weekend Tournament",
+			"subtitle": "Top 10 win gems",
+			"ends_in_hours": 26,
+			"icon": "trophy",
+			"metadata": {
+				"dialog": {
+					"title": "Weekend Tournament",
+					"body": "Top 10 finishers win gems. Compete with your team all weekend!"
+				}
+			}
+		}
+	],
+	"campaigns": [
+		{
+			"id": "double_xp_fri",
+			"title": "Double XP Friday",
+			"subtitle": "Earn 2x XP all day",
+			"ends_in_hours": 9,
+			"icon": "xp",
+			"action": "modifier",
+			"modifies": "xp",
+			"multiplier": 2
+		},
+		{
+			"id": "practice_bonus",
+			"title": "Practice Bonus",
+			"subtitle": "Keep showing up",
+			"icon": "coin",
+			"action": "claim",
+			"reward_currency": "coins",
+			"reward_amount": 50
+		},
+		{
+			"id": "streak_bonus",
+			"title": "Streak Bonus",
+			"subtitle": "Play daily to grow it",
+			"icon": "crown",
+			"metadata": {
+				"progress": { "current": 2, "goal": 5 }
+			}
+		}
+	],
+	"offers": [
+	{
+		"id": "piggy_bank",
+		"kind": "piggy_bank",
+		"title": "Piggy Bank",
+		"icon": "bank",
+		"reward_currency": "coins",
+		"reward_amount": 0,
+		"cooldown_hours": 24,
+		"metadata": { "tooltip": "tooltip_piggy_bank" }
+	},
+	{
+		"id": "daily_gift",
+		"kind": "daily_gift",
+		"title": "Daily Gift",
+		"icon": "gift",
+		"reward_currency": "coins",
+		"reward_amount": 50,
+		"cooldown_hours": 24,
+		"metadata": { "tooltip": "tooltip_daily_gift" }
+	},
+	{
+		"id": "rv_booster",
+		"kind": "booster",
+		"title": "Booster Pack",
+		"icon": "booster",
+		"reward_currency": "gems",
+		"reward_amount": 5,
+		"cooldown_hours": 72
+	}
+	]
+}

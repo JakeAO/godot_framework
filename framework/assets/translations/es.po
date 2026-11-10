@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GameStagePrototype 1.0\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "nav_profile"
+msgstr "Perfil"
+
+msgid "nav_social"
+msgstr "Social"
+
+msgid "nav_home"
+msgstr "Inicio"
+
+msgid "nav_special"
+msgstr "Especial"
+
+msgid "nav_settings"
+msgstr "Ajustes"
+
+msgid "header_coins"
+msgstr "Monedas"
+
+msgid "header_gems"
+msgstr "Gemas"
+
+msgid "home_title"
+msgstr "Escalera de Aventura"
+
+msgid "home_stage"
+msgstr "Etapa %d"
+
+msgid "home_locked"
+msgstr "Bloqueado"
+
+msgid "home_play"
+msgstr "JUGAR"
+
+msgid "home_next_challenge"
+msgstr "Próximo Reto"
+
+msgid "event_tournament_title"
+msgstr "Torneo de Primavera"
+
+msgid "event_ends_in"
+msgstr "Termina en %d:%02d"
+
+msgid "offer_daily_gift_title"
+msgstr "Regalo Diario"
+
+msgid "offer_claim"
+msgstr "Reclamar"
+
+msgid "offer_claimed"
+msgstr "¡Reclamado!"
+
+msgid "offer_ready_in"
+msgstr "Listo en %d:%02d"
+
+msgid "offer_watch"
+msgstr "Ver vídeo"
+
+msgid "dlg_daily_gift_free"
+msgstr "¡Reclama tu obsequio diario gratis!"
+
+msgid "dlg_daily_gift_extras"
+msgstr "Mira un vídeo corto para reclamar de nuevo (%d restantes hoy)."
+
+msgid "dlg_daily_gift_watch_btn"
+msgstr "Ver y reclamar"
+
+msgid "dlg_daily_gift_done"
+msgstr "¡Lo has reclamado todo por hoy! Vuelve mañana."
+
+msgid "dlg_daily_gift_next_in"
+msgstr "Próximo obsequio en %d:%02d"
+
+msgid "dlg_piggy_ready"
+msgstr "Tu alcancía está lista para cobrar. Elige cómo pagar:"
+
+msgid "dlg_piggy_collect_rv"
+msgstr "Cobrar con vídeo"
+
+msgid "dlg_piggy_collect_iap"
+msgstr "Cobrar (IAP simulado)"
+
+msgid "dlg_piggy_filling"
+msgstr "Cada etapa superada añade %d monedas. Faltan %d para desbloquear el cobro."
+
+msgid "dlg_streak_current"
+msgstr "Racha: %d días"
+
+msgid "dlg_streak_ready"
+msgstr "¡Objetivo de hoy cumplido! Reclama tu recompensa."
+
+msgid "dlg_streak_broken"
+msgstr "Tu racha se rompió. Puedes restaurarla una vez:"
+
+msgid "dlg_streak_recover_coins"
+msgstr "Restaurar con %d monedas"
+
+msgid "dlg_streak_recover_rv"
+msgstr "Restaurar con vídeo"
+
+msgid "dlg_streak_progress"
+msgstr "Rondas hoy: %d/%d"
+
+msgid "dlg_offer_body"
+msgstr "Reclama tu recompensa: %d %s."
+
+msgid "dlg_ad_failed"
+msgstr "El vídeo no se pudo cargar. Inténtalo de nuevo."
+
+msgid "tooltip_streak"
+msgstr "Juega todos los días para mantener tu racha y hacer crecer las recompensas."
+
+msgid "profile_title"
+msgstr "Perfil del Jugador"
+
+msgid "profile_level"
+msgstr "Nivel %d"
+
+msgid "profile_best_score"
+msgstr "Mejor Puntuación"
+
+msgid "profile_total_games"
+msgstr "Partidas Jugadas"
+
+msgid "profile_tab_portrait"
+msgstr "Retrato"
+
+msgid "profile_tab_flair"
+msgstr "Adorno"
+
+msgid "profile_tab_crown"
+msgstr "Corona"
+
+msgid "profile_tab_stats"
+msgstr "Estadísticas"
+
+msgid "portrait_classic"
+msgstr "Retrato Clásico"
+
+msgid "portrait_gold"
+msgstr "Retrato Dorado"
+
+msgid "portrait_silver"
+msgstr "Retrato de Plata"
+
+msgid "portrait_diamond"
+msgstr "Retrato de Diamante"
+
+msgid "portrait_ember"
+msgstr "Retrato de Brasas"
+
+msgid "portrait_forest"
+msgstr "Retrato del Bosque"
+
+msgid "flair_none"
+msgstr "Ninguno"
+
+msgid "flair_ring_gold"
+msgstr "Anillo Dorado"
+
+msgid "flair_ring_blue"
+msgstr "Anillo Azul"
+
+msgid "flair_banner_gold"
+msgstr "Bandera Dorada"
+
+msgid "flair_banner_blue"
+msgstr "Bandera Azul"
+
+msgid "flair_capsule_gold"
+msgstr "Cápsula Dorada"
+
+msgid "flair_capsule_blue"
+msgstr "Cápsula Azul"
+
+msgid "crown_none"
+msgstr "Ninguna"
+
+msgid "crown_gold"
+msgstr "Corona de Campeón"
+
+msgid "crown_silver"
+msgstr "Corona de Plata"
+
+msgid "crown_diamond"
+msgstr "Corona de Diamante"
+
+msgid "social_tab_friends"
+msgstr "Amigos"
+
+msgid "social_tab_team"
+msgstr "Equipo"
+
+msgid "social_tab_search"
+msgstr "Buscar"
+
+msgid "social_no_friends"
+msgstr "Aún no hay amigos. ¡Comparte tu puntuación para invitar!"
+
+msgid "social_no_team"
+msgstr "Únete a un equipo para ganar bonos y chatear con tus compañeros."
+
+msgid "social_find_team"
+msgstr "Buscar Equipo"
+
+msgid "social_subtab_chat"
+msgstr "Chat"
+
+msgid "social_subtab_members"
+msgstr "Miembros"
+
+msgid "social_chat_hint"
+msgstr "Escribe un mensaje a tu equipo..."
+
+msgid "social_chat_send"
+msgstr "Enviar"
+
+msgid "social_presence_online"
+msgstr "en línea"
+
+msgid "social_seen_now"
+msgstr "ahora mismo"
+
+msgid "social_seen_minutes"
+msgstr "hace %dm"
+
+msgid "social_seen_hours"
+msgstr "hace %dh"
+
+msgid "social_seen_days"
+msgstr "hace %dd"
+
+msgid "social_seen_days_cap"
+msgstr "hace 3d+"
+
+msgid "social_search_hint"
+msgstr "Busca amigos o equipos..."
+
+msgid "social_no_results"
+msgstr "Sin resultados."
+
+msgid "social_join"
+msgstr "Unirse"
+
+msgid "social_request"
+msgstr "Solicitar"
+
+msgid "social_save"
+msgstr "Guardar"
+
+msgid "team_member_count"
+msgstr "%d Miembros"
+
+msgid "team_power"
+msgstr "Poder %d"
+
+msgid "team_member"
+msgstr "Miembro"
+
+msgid "banner_base"
+msgstr "Base"
+
+msgid "banner_icon"
+msgstr "Icono"
+
+msgid "banner_base_lut"
+msgstr "Paleta de la base"
+
+msgid "banner_icon_lut"
+msgstr "Paleta del icono"
+
+msgid "banner_icon_scale"
+msgstr "Tamaño del icono"
+
+msgid "social_invitations"
+msgstr "Invitaciones"
+
+msgid "social_accept"
+msgstr "Aceptar"
+
+msgid "social_reject"
+msgstr "Rechazar"
+
+msgid "social_cancel"
+msgstr "Cancelar"
+
+msgid "social_blocked"
+msgstr "Bloqueados"
+
+msgid "social_block"
+msgstr "Bloquear"
+
+msgid "social_unblock"
+msgstr "Desbloquear"
+
+msgid "team_create"
+msgstr "Crear equipo"
+
+msgid "team_name_label"
+msgstr "Nombre del equipo"
+
+msgid "team_name_placeholder"
+msgstr "Introduce el nombre del equipo"
+
+msgid "team_access"
+msgstr "Acceso"
+
+msgid "team_access_open"
+msgstr "Abierto"
+
+msgid "team_access_by_request"
+msgstr "Bajo solicitud"
+
+msgid "team_leader"
+msgstr "Líder"
+
+msgid "team_settings"
+msgstr "Ajustes"
+
+msgid "team_requests"
+msgstr "Solicitudes de entrada"
+
+msgid "team_approve"
+msgstr "Aprobar"
+
+msgid "team_deny"
+msgstr "Denegar"
+
+msgid "team_request_sent"
+msgstr "Solicitud enviada"
+
+msgid "team_leave"
+msgstr "Salir del equipo"
+
+msgid "social_error_pending_exists"
+msgstr "Ya hay una invitación pendiente."
+
+msgid "social_error_blocked"
+msgstr "No puedes añadir a un jugador bloqueado."
+
+msgid "social_error_team_by_request"
+msgstr "Este equipo requiere una solicitud de entrada."
+
+msgid "social_error_team_open"
+msgstr "Este equipo es abierto: únete directamente."
+
+msgid "social_error_request_pending"
+msgstr "Tu solicitud ya está pendiente."
+
+msgid "social_error_already_member"
+msgstr "Ya formas parte de este equipo."
+
+msgid "social_error_not_leader"
+msgstr "Solo el líder del equipo puede hacer eso."
+
+msgid "social_error_invalid_name"
+msgstr "El nombre del equipo debe tener 1-24 caracteres."
+
+msgid "social_error_already_on_team"
+msgstr "Primero sal de tu equipo actual."
+
+msgid "settings_title"
+msgstr "Ajustes"
+
+msgid "settings_language"
+msgstr "Idioma"
+
+msgid "settings_music"
+msgstr "Música"
+
+msgid "settings_sfx"
+msgstr "Efectos de Sonido"
+
+msgid "settings_notifications"
+msgstr "Notificaciones"
+
+msgid "settings_reduced_vfx"
+msgstr "VFX Reducidos"
+
+msgid "settings_haptics"
+msgstr "Retroalimentación Háptica"
+
+msgid "settings_privacy"
+msgstr "Política de Privacidad y Datos"
+
+msgid "settings_support"
+msgstr "Soporte"
+
+msgid "settings_privacy_body"
+msgstr "Texto legal de marcador para el prototipo. La política de privacidad y la política de manejo de datos reales vivirán aquí, abiertas desde Ajustes."
+
+msgid "settings_support_body"
+msgstr "Texto de soporte de marcador para el prototipo. Las opciones de contacto y el centro de ayuda vivirán aquí."
+
+msgid "settings_reset_title"
+msgstr "¿Reiniciar datos?"
+
+msgid "settings_reset_body"
+msgstr "Esto borra tu progreso, monedas y ajustes. No se puede deshacer."
+
+msgid "settings_reset_confirm"
+msgstr "Reiniciar"
+
+msgid "settings_reset_cancel"
+msgstr "Cancelar"
+
+msgid "dialog_close"
+msgstr "Cerrar"
+
+msgid "toast_reward"
+msgstr "+%d %s"
+
+msgid "special_title"
+msgstr "Pantalla Especial"
+
+msgid "special_body"
+msgstr "Espacio para contenido estacional / de campaña."
+
+msgid "game_pause"
+msgstr "Pausa"
+
+msgid "game_resume"
+msgstr "Reanudar"
+
+msgid "game_quit"
+msgstr "Salir al Inicio"
+
+msgid "results_title"
+msgstr "Resultados"
+
+msgid "results_score"
+msgstr "Puntos"
+
+msgid "results_best"
+msgstr "Mejor"
+
+msgid "results_new_best"
+msgstr "¡NUEVO RÉCORD!"
+
+msgid "results_coins_earned"
+msgstr "+%d monedas"
+
+msgid "results_play_again"
+msgstr "Jugar Otra Vez"
+
+msgid "results_home"
+msgstr "Inicio"
+
+msgid "results_xp_earned"
+msgstr "+%d XP"
+
+msgid "results_modifier"
+msgstr "×%s %s"
+
+msgid "toast_level_up"
+msgstr "¡Nivel %d!"
+
+msgid "profile_xp"
+msgstr "XP %d / %d para el siguiente nivel"
+
+msgid "ftue_ladder"
+msgstr "Sube la Escalera de Aventura: completa una etapa para desbloquear la siguiente."
+
+msgid "ftue_play"
+msgstr "Toca JUGAR para empezar tu primera ronda!"
+
+msgid "tooltip_piggy_bank"
+msgstr "Las ganancias de cada ronda llenan esta alcancía. Reclámala para recoger tus monedas guardadas."
+
+msgid "tooltip_daily_gift"
+msgstr "¡Un regalo gratis cada día! Vuelve mañana por otro."
+
+msgid "tooltip_notifications"
+msgstr "Recordatorios por notificación para eventos y ofertas."
+
+msgid "tooltip_reduced_vfx"
+msgstr "Reduce los efectos de partículas para un rendimiento más fluido en dispositivos antiguos."
+
+msgid "tooltip_team_join"
+msgstr "Busca y únete a un equipo desde la pestaña Buscar para desbloquear el chat del equipo."
+
+msgid "social_add_friend"
+msgstr "Añadir amigo"
+
+msgid "social_add_friend_hint"
+msgstr "Introduce un código de jugador"
+
+msgid "social_remove"
+msgstr "Quitar"
+
+msgid "social_error_invalid_code"
+msgstr "Eso no parece un código de jugador."
+
+msgid "social_error_unknown_code"
+msgstr "Ningún jugador con ese código."
+
+msgid "social_error_already_friend"
+msgstr "Ya está en tu lista de amigos."
+
+msgid "social_error_unavailable"
+msgstr "Servicio social no disponible. Inténtalo más tarde."
+
+msgid "social_error_generic"
+msgstr "No se pudo añadir a ese jugador."
+
+msgid "social_join_failed"
+msgstr "No se unió al equipo. Inténtalo de nuevo."
+
+msgid "profile_player_code"
+msgstr "Código de jugador"
+
+msgid "profile_code_hold_to_copy"
+msgstr "Mantén pulsado para copiar tu código de jugador"
+
+msgid "profile_code_copied"
+msgstr "Código de jugador copiado"
+
+msgid "profile_sync_idle"
+msgstr "Sincronización: en espera"
+
+msgid "profile_sync_ok"
+msgstr "Sincronizado"
+
+msgid "profile_sync_failed"
+msgstr "Error de sincronización"
+
+msgid "profile_sync_offline"
+msgstr "Sincronización no disponible (sin conexión)"
+
+msgid "common_offline"
+msgstr "Sin conexión con el servidor — acciones no disponibles"
+
+msgid "shop_title"
+msgstr "Tienda"
+
+msgid "shop_empty"
+msgstr "Nada en venta por ahora."
+
+msgid "shop_buy"
+msgstr "Comprar"
+
+msgid "shop_owned"
+msgstr "Adquirido"
+
+msgid "shop_locked_level"
+msgstr "Nv %d"
+
+msgid "shop_contents_currency"
+msgstr "+%d %s"
+
+msgid "shop_toast_purchased"
+msgstr "¡Comprado!"
+
+msgid "shop_toast_insufficient"
+msgstr "No tienes suficientes %s"
+
+msgid "shop_toast_maxed"
+msgstr "Ya lo tienes"
+
+msgid "shop_toast_locked"
+msgstr "Se desbloquea en el nivel %d"
+
+msgid "profile_locked"
+msgstr "Bloqueado"
+
+msgid "profile_shard_progress"
+msgstr "%d%%"
+
+msgid "gift_pile_exit"
+msgstr "Salir"
+
+msgid "gift_pile_cash_out"
+msgstr "Cobrar"
+
+msgid "gift_pile_no_run"
+msgstr "No hay ninguna partida de la Montaña de Regalos en curso."
+
+msgid "gift_pile_danger_title"
+msgstr "¡Peligro!"
+
+msgid "gift_pile_danger_body"
+msgstr "¡Una trampa! Tu botín está en riesgo: sálvalo para seguir jugando o ríndete y pierde todo."
+
+msgid "gift_pile_save_btn"
+msgstr "Salvar — %d monedas"
+
+msgid "gift_pile_watch_rv"
+msgstr "Ver anuncio para salvar"
+
+msgid "gift_pile_give_up"
+msgstr "Rendirse (perder todo)"
+
+msgid "gift_pile_jackpot"
+msgstr "¡BOTE!"
+
+msgid "gift_pile_cashout_result"
+msgstr "¡Cobrado! Ganaste %d monedas y %d gemas."
+
+msgid "gift_pile_cosmetics_gained"
+msgstr "+%d cosméticos desbloqueados"
+
+msgid "gift_pile_lost_result"
+msgstr "Te rendiste — la montaña se lo quedó todo."
+
+msgid "gift_pile_slot_covered"
+msgstr "?"
+
+msgid "gift_pile_slot_fail"
+msgstr "¡TRAMPA!"
+
+msgid "gift_pile_box_closed"
+msgstr "?"
+
+msgid "gift_pile_fake_coin"
+msgstr "+5 monedas"
+
+msgid "gift_pile_fake_gem"
+msgstr "+2 gemas"
+
+msgid "gift_pile_fake_cosmetic"
+msgstr "* Adorno"
+
+msgid "gift_pile_title"
+msgstr "Montaña de Regalos"
+
+msgid "gift_pile_intro_rules"
+msgstr "Toca para revelar regalos desde la base de la montaña. Las recompensas se guardan al avanzar — pero una TRAMPA pone en riesgo todo tu botín."
+
+msgid "gift_pile_top_prize"
+msgstr "Premio mayor: %s"
+
+msgid "gift_pile_save_cost"
+msgstr "Salvar una partida atrapada cuesta %d monedas (o ver un anuncio)."
+
+msgid "gift_pile_play"
+msgstr "Jugar"
+
+msgid "gift_pile_continue"
+msgstr "Continuar"
+
+msgid "gift_pile_continue_hint"
+msgstr "Tienes una partida en curso."
+
+msgid "gift_pile_no_runs_left"
+msgstr "No te quedan partidas hoy."
+
+msgid "gift_pile_extra_watch"
+msgstr "Ver anuncio — partida extra"
+
+msgid "gift_pile_come_back"
+msgstr "Vuelve mañana para una montaña nueva."
+
+msgid "gift_pile_tooltip"
+msgstr "Prueba tu suerte: revela la montaña, guarda recompensas y cobra antes de una trampa."
+
+msgid "dlg_tournament_offline"
+msgstr "Los torneos requieren una conexión en línea."
+
+msgid "dlg_tournament_no_team"
+msgstr "Únete a un equipo para entrar al torneo de equipo."
+
+msgid "dlg_tournament_progress"
+msgstr "Tu progreso: %d pts"
+
+msgid "dlg_tournament_enter_hint"
+msgstr "Gana una ronda para entrar automáticamente."
+
+msgid "dlg_tournament_rank"
+msgstr "Eres #%d — %d pts"
+
+msgid "dlg_tournament_claimed"
+msgstr "Recompensa reclamada."
+
+msgid "dlg_tournament_missed"
+msgstr "Este torneo terminó sin que entraras."
+
+msgid "dlg_tournament_loading"
+msgstr "Cargando clasificaciones…"
+
+msgid "dlg_tournament_claim_failed"
+msgstr "No se pudo reclamar. Inténtalo más tarde."
+
+msgid "dlg_leaderboards_offline"
+msgstr "Las clasificaciones necesitan una conexión."
+
+msgid "dlg_leaderboards_scope_global"
+msgstr "Global"
+
+msgid "dlg_leaderboards_scope_friends"
+msgstr "Amigos"
+
+msgid "dlg_leaderboards_loading"
+msgstr "Cargando puntuaciones…"
+
+msgid "dlg_leaderboards_empty"
+msgstr "Aún no hay puntuaciones."
+
+msgid "dlg_matchmaking_idle"
+msgstr "Busca un rival para una partida 1v1."
+
+msgid "dlg_matchmaking_queued"
+msgstr "Buscando rival…"
+
+msgid "dlg_matchmaking_matched"
+msgstr "Rival encontrado:"
+
+msgid "dlg_matchmaking_offline"
+msgstr "El matchmaking necesita una conexión."
+
+msgid "dlg_matchmaking_failed"
+msgstr "No se pudo entrar en la cola. Inténtalo de nuevo."
+
+msgid "matchmaking_find"
+msgstr "Buscar partida"
+
+msgid "matchmaking_cancel"
+msgstr "Cancelar"
+
+msgid "matchmaking_leave"
+msgstr "Salir de la sala"
